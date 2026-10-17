@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USB30Y_USD",
+  "granularity": "D",
+  "chunk_start": "2000-01-01",
+  "chunk_end": "2009-12-31",
+  "parquet_file": "OANDA_USB30YUSD_US-T-Bond_D_2000-01-01_to_2009-12-31.parquet",
+  "data_file": "OANDA_USB30YUSD_US-T-Bond_D_2000-01-01_to_2009-12-31.parquet",
+  "row_count": 1716,
+  "first_candle": {
+    "time": 1048197600,
+    "Time": "2003-03-20T22:00:00.000000000Z",
+    "open": 114.203,
+    "high": 114.299,
+    "low": 113.034,
+    "close": 113.192,
+    "volume": 1675
+  },
+  "last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 116.338,
+    "high": 116.338,
+    "low": 115.046,
+    "close": 115.704,
+    "volume": 2123
+  },
+  "csv_file": "OANDA_USB30YUSD_US-T-Bond_D_2000-01-01_to_2009-12-31.parquet",
+  "csv_row_count": 1716,
+  "csv_first_candle": {
+    "time": 1048197600,
+    "Time": "2003-03-20T22:00:00.000000000Z",
+    "open": 114.203,
+    "high": 114.299,
+    "low": 113.034,
+    "close": 113.192,
+    "volume": 1675
+  },
+  "csv_last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 116.338,
+    "high": 116.338,
+    "low": 115.046,
+    "close": 115.704,
+    "volume": 2123
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:27:32.000000000Z",
+  "generated_at": "2026-10-16T01:27:32.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-03-20T22:00:00Z",
+        "to": "2016-11-26T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
