@@ -6,7 +6,7 @@
   "chunk_end": "2029-12-31",
   "parquet_file": "OANDA_USB30YUSD_US-T-Bond_D_2020-01-01_to_2029-12-31.parquet",
   "data_file": "OANDA_USB30YUSD_US-T-Bond_D_2020-01-01_to_2029-12-31.parquet",
-  "row_count": 1756,
+  "row_count": 1757,
   "first_candle": {
     "time": 1577916000,
     "Time": "2020-01-01T22:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 3361
   },
   "last_candle": {
-    "time": 1792011600,
-    "Time": "2026-10-14T21:00:00.000000000Z",
-    "open": 104.49,
-    "high": 106.556,
-    "low": 104.49,
-    "close": 106.178,
-    "volume": 3099
+    "time": 1792098000,
+    "Time": "2026-10-15T21:00:00.000000000Z",
+    "open": 106.114,
+    "high": 106.236,
+    "low": 105.389,
+    "close": 106.016,
+    "volume": 2624
   },
   "csv_file": "OANDA_USB30YUSD_US-T-Bond_D_2020-01-01_to_2029-12-31.parquet",
-  "csv_row_count": 1756,
+  "csv_row_count": 1757,
   "csv_first_candle": {
     "time": 1577916000,
     "Time": "2020-01-01T22:00:00.000000000Z",
@@ -37,17 +37,17 @@
     "volume": 3361
   },
   "csv_last_candle": {
-    "time": 1792011600,
-    "Time": "2026-10-14T21:00:00.000000000Z",
-    "open": 104.49,
-    "high": 106.556,
-    "low": 104.49,
-    "close": 106.178,
-    "volume": 3099
+    "time": 1792098000,
+    "Time": "2026-10-15T21:00:00.000000000Z",
+    "open": 106.114,
+    "high": 106.236,
+    "low": 105.389,
+    "close": 106.016,
+    "volume": 2624
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-10-16T01:27:32.000000000Z",
-  "generated_at": "2026-10-16T01:27:32.000000000Z",
+  "verified_at": "2026-10-17T21:53:20.000000000Z",
+  "generated_at": "2026-10-17T21:53:20.000000000Z",
   "download_request": {
     "total_api_blocks_in_run": 2,
     "chunk_api_blocks": 1,
@@ -56,7 +56,7 @@
     "all_block_outcomes": [
       {
         "from": "2016-11-26T22:00:00Z",
-        "to": "2026-10-15T21:00:00Z",
+        "to": "2026-10-16T21:00:00Z",
         "code": 200,
         "msg": "OK"
       }
