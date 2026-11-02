@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USB30Y_USD",
+  "granularity": "M1",
+  "chunk_start": "2026-11-01",
+  "chunk_end": "2026-11-30",
+  "parquet_file": "OANDA_USB30YUSD_US-T-Bond_1_2026-11-01_to_2026-11-30.parquet",
+  "data_file": "OANDA_USB30YUSD_US-T-Bond_1_2026-11-01_to_2026-11-30.parquet",
+  "row_count": 120,
+  "first_candle": {
+    "time": 1793574000,
+    "Time": "2026-11-01T23:00:00.000000000Z",
+    "open": 107.78,
+    "high": 107.78,
+    "low": 107.764,
+    "close": 107.764,
+    "volume": 2
+  },
+  "last_candle": {
+    "time": 1793599320,
+    "Time": "2026-11-02T06:02:00.000000000Z",
+    "open": 108.044,
+    "high": 108.06,
+    "low": 108.028,
+    "close": 108.06,
+    "volume": 4
+  },
+  "csv_file": "OANDA_USB30YUSD_US-T-Bond_1_2026-11-01_to_2026-11-30.parquet",
+  "csv_row_count": 120,
+  "csv_first_candle": {
+    "time": 1793574000,
+    "Time": "2026-11-01T23:00:00.000000000Z",
+    "open": 107.78,
+    "high": 107.78,
+    "low": 107.764,
+    "close": 107.764,
+    "volume": 2
+  },
+  "csv_last_candle": {
+    "time": 1793599320,
+    "Time": "2026-11-02T06:02:00.000000000Z",
+    "open": 108.044,
+    "high": 108.06,
+    "low": 108.028,
+    "close": 108.06,
+    "volume": 4
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-11-02T06:07:56.000000000Z",
+  "generated_at": "2026-11-02T06:07:56.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 1,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2026-11-01T00:00:00Z",
+        "to": "2026-11-02T06:03:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
